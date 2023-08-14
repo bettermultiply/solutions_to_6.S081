@@ -43,7 +43,8 @@ findFile(char* path, char* filename){
 	case T_FILE:
 		char* s = getname(path);		
 		if(!strcmp(s, filename)){
-			printf("%s %d %d %d\n", path, st.type, st.ino, st.size);
+			//printf("%s %d %d %d\n", path, st.type, st.ino, st.size);
+			printf("%s\n", path);
 		}
 
 		break;
